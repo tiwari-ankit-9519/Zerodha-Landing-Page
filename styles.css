@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter',serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    padding: 0 8rem;
+}
+
+header a, header img {
+    height: 1.5rem;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    padding: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    color: #ff0000;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img {
+    margin-top: 3rem;
+    height: 25rem;
+}
+
+main h1 {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    line-height: 2.5rem;
+    letter-spacing: 0.5rem;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    line-height: 2.5rem;
+}
+
+main button {
+    border-radius: 2px;
+    margin-top: 2rem;
+    font-family: inherit;
+    color: white;
+    font-weight: semibold;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #387ed1;
+    padding: 0.5rem 1rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
